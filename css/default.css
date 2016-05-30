@@ -33,7 +33,7 @@ body{
 #gnav div.img {
   display: table-cell;
   vertical-align: middle;
-  background: url(../css_01.png) no-repeat;
+  background: url(../01.png) no-repeat;
   width: 55px;
   height: 46px;
 }
