@@ -3,7 +3,6 @@
 body{
   background-color: mediumaquamarine;
 }
-
 #gnav a {
   display: block; /* a要素のブロック化 */
   padding:10px 0; /* 上下に空間を確保する */
@@ -16,9 +15,13 @@ body{
   background: lightgreen;
   color: black;
 }
-
 #gnav ul {
   over flow: hidden;
+}
+#gnav a.selected {
+  background: white;
+  color: darkgreen;
+  font-weight: bold; /* 太字にしてみる */
 }
 
 #gnav li {
